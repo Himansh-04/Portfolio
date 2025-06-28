@@ -31,8 +31,8 @@ const projects = [
     title: "Portfolio Website",
     desc: "My personal portfolio to showcase projects, skills, and contact details built with modern UI animations and responsive design.",
     devstack: "React, Tailwind, Framer Motion",
-    link: "#", // Add live link
-    // git: "#",  // Add GitHub link
+    link: "https://portfolio-seven-pied.vercel.app/", // Add live link
+     git: "https://github.com/Himansh-04/Portfolio",  // Add GitHub link
     src: proj3,
     type: "frontend",
   },
