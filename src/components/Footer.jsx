@@ -14,12 +14,12 @@ export const Footer = () => {
         <div className="flex items-start justify-between flex-col md:flex-row gap-12">
           {/* Contact Info */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white/60">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-white/60">
               Get in <span className="text-gray-300">touch</span>
             </h2>
             <a
               href="mailto:himanshdaksh04@gmail.com"
-              className="text-3xl md:text-4xl font-semibold text-white underline decoration-gray-400 underline-offset-4 hover:decoration-white transition duration-300"
+              className="text-xl sm:text-2xl md:text-4xl font-semibold text-white underline decoration-gray-400 underline-offset-4 hover:decoration-white transition duration-300 break-all"
             >
               himanshdaksh04@gmail.com
             </a>
@@ -46,7 +46,7 @@ export const Footer = () => {
 
         {/* Background Name Display */}
         <div className="relative z-0 text-center mt-16">
-          <h1 className="text-[5rem] sm:text-[8rem] md:text-[10rem] lg:text-[12rem] font-bold text-white opacity-10 leading-none">
+          <h1 className="text-[3rem] sm:text-[5rem] md:text-[8rem] lg:text-[10rem] font-bold text-white opacity-10 leading-none break-words">
             HIMANSHU
             <br className="md:hidden" />
             <span className="md:inline hidden"> DAKSH</span>
